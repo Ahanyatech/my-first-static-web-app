@@ -3,7 +3,7 @@ import axios from 'axios';
 
 function App() {
 	try {
-			const res = await axios.get(
+			const res = axios.get(
 				`https://app-backend-api.azurewebsites.net/WeatherForecast`,
 				{
 					headers: {},
