@@ -9,9 +9,9 @@ import axios from 'axios';
 			{
 				headers: {},
 				params: {}
-			}
-		return <div><h1>Weather today is {res} </h1></div>;
+			}		
 		);
+	return <div><h1>Weather today is {res} </h1></div>;
 	} catch (err) {
 		console.log(err);
 	}
